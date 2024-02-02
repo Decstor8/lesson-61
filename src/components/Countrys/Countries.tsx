@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getCountryList } from '../../constants';
+import './Countries.css';
 
 interface Country {
     alpha3Code: string;
@@ -28,15 +29,17 @@ const Countries: React.FC<Props> = ({countryList}) => {
     }, []);
 
     return (
-        <div>
-            <h1>Выберите страну</h1>
+        <div className='country-list'>
+            <h1 className='main-title'>Выберите страну</h1>
+            <ul>
                 {countries.map((country) => (
-                    <div
+                    <li className='one-element'
                         key={country.alpha3Code}
                         onClick={() => countryList(country.alpha3Code)}>
                         {country.name}
-                    </div>
-                ))};
+                    </li>
+                ))}
+            </ul>
         </div>
     );
 };
