@@ -1,0 +1,14 @@
+
+.title-description {
+    text-align: center;
+    margin: 15px 10px;
+    color: #9b9b9b;
+}
+
+.block-info {
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: #5e5e5e;
+    padding: 10px;
+    font-weight: bold;
+}

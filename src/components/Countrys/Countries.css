@@ -1,0 +1,23 @@
+.country-list {
+    border: 1px solid white;
+    border-radius: 15px;
+    background: radial-gradient(circle, rgba(39,177,173,0.8492647058823529) 8%, rgba(38,78,194,0.7764355742296919) 39%, rgba(54,49,49,0.9080882352941176) 80%);
+}
+
+.main-title {
+    text-align: center;
+    margin: 15px 10px;
+    color: #9b9b9b;
+}
+
+.one-element {
+    border-bottom: 1px solid #d3d3d3;
+    margin: 7px 0;
+    text-shadow: 3px 3px #5e5e5e;
+}
+
+.one-element:hover {
+    color: black;
+    font-weight: bold;
+    text-shadow: none;
+}
